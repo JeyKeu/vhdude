@@ -1,0 +1,23 @@
+{
+  "name": "jeykeu/vhdude",
+  "description": "A CLI tool to manage Apache2 virtual hosts",
+  "type": "project",
+  "require": {
+    "symfony/console": "^3.2"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Junaid Qadir Shekhanzai",
+      "email": "shekhanzai.baloch@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "JeyKeu\\VhDude\\": "src/"
+    }
+  },
+  "bin": [
+    "vhdude"
+  ]
+}

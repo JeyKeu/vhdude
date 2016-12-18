@@ -1,0 +1,17 @@
+#!/usr/bin/env php
+<?php
+require_once __DIR__ . '/vendor/autoload.php';
+use JeyKeu\VhDude\Console\AddCommand;
+use Symfony\Component\Console\Application;
+
+$app = new Application($name= "vhdude - A CLI tool to manage Apache2 virtual hosts");
+
+
+/**
+ * Register commands here
+ */
+$app->add(new AddCommand());
+
+$app->run();
+
+
